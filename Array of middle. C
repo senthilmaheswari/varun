@@ -1,0 +1,37 @@
+#include<stdio.h>
+void main ()
+{
+int first,last,middle; 
+int a[20],val,pos,n,flag;
+printf ("enter the no of values");
+scanf( "%d",&n);
+printf(" enter the values");
+Pos=-1,flag=false;
+first=0;
+last=n-1;
+while ((first <=last)&&(flag==false))
+{
+middle=(first+last)/2;
+if(series[middle]==val)
+{
+pos=middle; 
+flag =true;
+break;
+}
+else
+if (a[middle]<val)
+first=middle+1;
+else
+last=middle-1;
+}
+if (flag==true)
+printf ("\n the value found %d",pos);
+else
+printf ("\n the value not found);
+}
+
+
+
+else
+
+else
