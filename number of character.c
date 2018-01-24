@@ -2,8 +2,9 @@
 main()
 {
 char string[200],ch;
-int count=0,i=0;
+int count=0,i=0,n;
 printf("enter the string \n");
+scanf("%c",&n);
 printf("count the number of character:\n");
 scanf("%c",&ch);
 while(string [i]='\0')
