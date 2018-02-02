@@ -9,7 +9,6 @@ while(str[i]!='\0')
 {
 if(str[i]=='')
 count++;
-i++;
 }
 printf("number of words in the string %d\n",count+1);
 }
