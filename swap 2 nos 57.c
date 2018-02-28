@@ -2,12 +2,12 @@
 void swap(int *,int*)
 int main()
 {
-int a,b;
+int m,n;
 printf("\n enter the two no before swapping:");
-scanf("%d%d",&a&b)
-swap(a,b);
+scanf("%d%d",&m&n)
+swap(m,n);
 printf("\n after swapping two numbers are:");
- scanf("%d%d",&a&b);
+ scanf("%d%d",&m&n);
   void swap(int x,int y)
   {
     *x=*x^*y;
