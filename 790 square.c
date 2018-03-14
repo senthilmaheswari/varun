@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main(void) {
-	int a,b,c,i,d=0;
+	int a,b,m,k,d=0;
 	scanf("%d\n%d",&a,&b);
-	c=a*b;
-	for(i=1;i<c;i++)
+	m=a*b;
+	for(k=1;k<c;k++)
 	{
-		if(c/i==i)
+		if(m/k==i)
 		{
 			d++;
 		}
