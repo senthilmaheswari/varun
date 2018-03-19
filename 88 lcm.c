@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main(void)
 {
-	int a,b,c,lcm;
-	scanf("%d%d",&a,&b);
-	c=gcd(a,b);
-	lcm=(a*b)/c;
+	int j,k,c,lcm;
+	scanf("%d%d",&j,&k);
+	c=gcd(j,k);
+	lcm=(j*k)/c;
 	printf("%d",lcm);
 	return 0;
 }
