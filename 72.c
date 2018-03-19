@@ -2,11 +2,11 @@
 #include<string.h>
 
 int main(void) {
-	char a[56];
-	int l,i,count=0;
+	char b[56];
+	int n,i,count=0;
 	printf("enter the string");
-	scanf("%s",a);
-	l=strlen(a);
+	scanf("%s",b);
+	n=strlen(b);
 	for(i=0;i<l;i++)
 	{
 
